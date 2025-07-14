@@ -38,6 +38,9 @@ body {
 .height100 {
   height: 100%;
 }
+.height400 {
+  height: 400px;
+}
 .height356 {
   height: 356px;
 }
@@ -53,6 +56,19 @@ body {
 .bg_lightlightred {
   background-color: #FBF3F1;
 }
+.flex {
+  display: flex;
+}
+.backgroundimg {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backgroundposiri {
+  background-position: right;
+}
+.backgroundposice {
+  background-position: center;
+}
 @media (max-width: 640px) {
  .bg_grey .container-xl .f_wr {
   flex-direction: column-reverse;
@@ -63,6 +79,9 @@ body {
  }
   .d_nd {
   display: none;
+  }
+  .fix1 {
+    height: 700px;
   }
 }
 
@@ -81,6 +100,12 @@ body {
   }
   .navbar-expand-lg .container-xl .navbar-toggler {
     display: inline-flex;
+  }
+  /* .ngg:last-child {
+    background-position: center;
+  } */
+  .fiximg {
+    height: 250px;
   }
 }
 @media (min-width: 1024px) {
