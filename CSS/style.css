@@ -26,6 +26,12 @@ body {
 .width200 {
   width: 200px;
 }
+.width30 {
+  width: 29%;
+}
+.width400 {
+  width: 400px;
+}
 .width50 {
   width: 50px;
 }
@@ -38,8 +44,20 @@ body {
 .height2 {
   height: 2px;
 }
+.height20 {
+  height: 20px;
+}
+.height50 {
+  height: 50px;
+}
+.height45 {
+  height: 45px;
+}
 .height100 {
   height: 100%;
+}
+.height200 {
+  height: 200px;
 }
 .height400 {
   height: 400px;
@@ -72,6 +90,9 @@ body {
 .backgroundposice {
   background-position: center;
 }
+.viralign::before {
+  line-height: 2.7;
+}
 @media (max-width: 640px) {
  .bg_grey .container-xl .f_wr {
   flex-direction: column-reverse;
@@ -85,6 +106,24 @@ body {
   }
   .fix1 {
     height: 700px;
+  }
+  .moblieheight {
+    height: 1px;
+  }
+  .controlgap {
+    gap: 0rem !important;
+  }
+  input.px-3 {
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+  img.col-sm-1 {
+    width: 100%;
+  }
+  textarea.col {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 70px;
   }
 }
 
