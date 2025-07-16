@@ -71,11 +71,14 @@ body {
 .height200 {
   height: 200px;
 }
+.height356 {
+  height: 356px;
+}
 .height400 {
   height: 400px;
 }
-.height356 {
-  height: 356px;
+.height500 {
+  height: 500px;
 }
 .fontsize12 {
   font-size: 12px;
@@ -84,10 +87,10 @@ body {
   translate: 0 5px;
 }
 .bg_lightred {
-  background-color: #D53535;
+  background-color: rgb(213, 53, 53);
 }
 .bg_lightlightred {
-  background-color: #FBF3F1;
+  background-color: rgb(251, 243, 241);
 }
 .flex {
   display: flex;
@@ -110,6 +113,21 @@ body {
 }
 .tranl {
   translate: 0 10px;
+}
+.animation1 {
+  animation: upDown 2s linear infinite alternate;
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 @media (max-width: 640px) {
  .bg_grey .container-xl .f_wr {
@@ -143,6 +161,25 @@ body {
     flex-shrink: 1;
     flex-basis: 70px;
   }
+  .swiper-slide {
+  width: 100% !important; /* Important to override Swiper’s default */
+  box-sizing: border-box;
+  }
+  .resp {
+    width: 13% !important;
+  }
+  .swiper {
+  width: 100%;
+  overflow: hidden;
+  }
+
+  .swiper-slide {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  .ftre {
+    margin-left: 7%;
+  }
 }
 
 @media (min-width: 640px) and (max-width: 1024px) {
@@ -166,6 +203,21 @@ body {
   } */
   .fiximg {
     height: 250px;
+  }
+  .resp {
+    width: 40% !important;
+  }
+  .fres {
+    height: 36%;
+  }
+  .swiper {
+  width: 100%;
+  overflow: hidden;
+  }
+
+  .swiper-slide {
+    width: 100% !important;
+    box-sizing: border-box;
   }
 }
 @media (min-width: 1024px) {
